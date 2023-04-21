@@ -1,8 +1,9 @@
 package main
 
 import (
-	"Macintosh_HD/Users/Nuns/is105/is105sem03/mycrypt"
 	"fmt"
+
+	"github.com/nunsanity/is105sem03/mycrypt"
 )
 
 func main() {

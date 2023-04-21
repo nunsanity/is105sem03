@@ -1,3 +1,3 @@
-module Macintosh_HD/Users/Nuns/is105/is105sem03
+module github.com/nunsanity/is105sem03
 
 go 1.19
