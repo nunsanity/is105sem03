@@ -18,8 +18,8 @@ func TestKrypter(t *testing.T) {
 	tests := []test{
 		{inputMessage: []rune("w"), chiffer: 4, want: []rune("æ")},
 		{inputMessage: []rune("0"), chiffer: 4, want: []rune("4")},
-		{inputMessage: []rune("Kjevik;SN39040;18.03.2022 01:50;6"), chiffer: 4, want: []rune("dnizmocdd7;484c5: 47 6466d45b94c.")},
-		{inputMessage: []rune("dnizmocdd7;484c5: 47 6466d45b94c."), chiffer: len(ALF_SEM03) - 4, want: []rune("Kjevik;SN39040;18.03.2022 01:50;6")},
+		{inputMessage: []rune("Kjevik;SN39040;18.03.2022 01:50;6"), chiffer: 4, want: []rune("bnizmoNcd7;484N5: 47 6466a45S94N.")},
+		{inputMessage: []rune("bnizmoNcd7;484N5: 47 6466a45S94N."), chiffer: len(ALF_SEM03) - 4, want: []rune("Kjevik;SN39040;18.03.2022 01:50;6")},
 	}
 
 	for _, tc := range tests {
